@@ -22,34 +22,32 @@ AMAZON_AFFILIATE_TAG = "saravanakmr97-21"
 # ============================================================
 
 RSS_FEEDS = [
-    
-{
-        "name": "Desidime Hot Deals",
-        "url": "https://www.desidime.com/feed",
+    {
+        "name": "Cashkaro Deals",
+        "url": "https://cashkaro.com/feed",
         "emoji": "🔥"
     },
     {
-        "name": "Desidime Electronics",
-        "url": "https://www.desidime.com/deals/electronics.rss",
+        "name": "GrabOn Deals",
+        "url": "https://www.grabon.in/feed/",
+        "emoji": "🛒"
+    },
+    {
+        "name": "MySmartPrice Deals",
+        "url": "https://www.mysmartprice.com/gear/feed/",
         "emoji": "📱"
     },
     {
-        "name": "Desidime Fashion",
-        "url": "https://www.desidime.com/deals/fashion.rss",
-        "emoji": "👗"
+        "name": "91mobiles Deals",
+        "url": "https://www.91mobiles.com/hub/feed/",
+        "emoji": "💰"
     },
     {
-        "name": "Desidime Home",
-        "url": "https://www.desidime.com/deals/home-kitchen.rss",
-        "emoji": "🏠"
-    },
-    {
-        "name": "Desidime Beauty",
-        "url": "https://www.desidime.com/deals/health-beauty.rss",
-        "emoji": "💄"
+        "name": "Dealsnews India",
+        "url": "https://www.dealsnews.in/feed/",
+        "emoji": "⚡"
     }
-    ]
-
+]
 # ============================================================
 #   ALREADY POSTED LINKS TRACKER (Duplicate avoid பண்ண)
 # ============================================================

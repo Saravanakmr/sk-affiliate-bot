@@ -11,7 +11,7 @@ from datetime import datetime
 #   இங்க உங்க details fill பண்ணுங்க
 # ============================================================
 
-TELEGRAM_BOT_TOKEN = os.environ.get ("8823297215:AAHryZfVaMRoAvcZ__fHTJPoPlLm2UkghYI", "")
+TELEGRAM_BOT_TOKEN = os.environ.get("8823297215:AAHryZfVaMRoAvcZ__fHTJPoPlLm2UkghYI", "")
 
 TELEGRAM_CHANNEL_ID = "-1001222483575"
 
@@ -46,6 +46,21 @@ RSS_FEEDS = [
         "name": "Amazon Home & Kitchen",
         "url": "https://www.amazon.in/gp/rss/bestsellers/kitchen/ref=zg_bs_kitchen_rsslink",
         "emoji": "🏠"
+    },
+    {
+        "name": "Desidime Hot Deals",
+        "url": "https://www.desidime.com/feed",
+        "emoji": "🔥"
+    },
+    {
+        "name": "Desidime Electronics",
+        "url": "https://www.desidime.com/deals/electronics.rss",
+        "emoji": "📱"
+    },
+    {
+        "name": "Desidime Fashion",
+        "url": "https://www.desidime.com/deals/fashion.rss",
+        "emoji": "👗"
     }
 ]
 

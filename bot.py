@@ -10,7 +10,7 @@ from datetime import datetime
 #   இங்க உங்க details fill பண்ணுங்க
 # ============================================================
 
-TELEGRAM_BOT_TOKEN = "8823297215:AAHryZfVaMRoAvcZ__fHTJPoPlLm2UkghYI"
+TELEGRAM_BOT_TOKEN = os.environ.get ("8823297215:AAHryZfVaMRoAvcZ__fHTJPoPlLm2UkghYI", "")
 
 TELEGRAM_CHANNEL_ID = "-1001222483575"
 

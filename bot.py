@@ -11,7 +11,7 @@ from datetime import datetime
 #   இங்க உங்க details fill பண்ணுங்க
 # ============================================================
 
-TELEGRAM_BOT_TOKEN = os.environ.get("8823297215:AAHryZfVaMRoAvcZ__fHTJPoPlLm2UkghYI", "")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 
 TELEGRAM_CHANNEL_ID = "-1001222483575"
 
@@ -22,32 +22,8 @@ AMAZON_AFFILIATE_TAG = "saravanakmr97-21"
 # ============================================================
 
 RSS_FEEDS = [
-    {
-        "name": "Amazon Best Sellers - Electronics",
-        "url": "https://www.amazon.in/gp/rss/bestsellers/electronics/ref=zg_bs_electronics_rsslink",
-        "emoji": "📱"
-    },
-    {
-        "name": "Amazon Best Sellers - Fashion",
-        "url": "https://www.amazon.in/gp/rss/bestsellers/apparel/ref=zg_bs_apparel_rsslink",
-        "emoji": "👗"
-    },
-    {
-        "name": "Amazon Best Sellers - Beauty",
-        "url": "https://www.amazon.in/gp/rss/bestsellers/beauty/ref=zg_bs_beauty_rsslink",
-        "emoji": "💄"
-    },
-    {
-        "name": "Amazon Deals",
-        "url": "https://www.amazon.in/gp/rss/movers-and-shakers/electronics/ref=zg_msaw_electronics_rsslink",
-        "emoji": "🔥"
-    },
-    {
-        "name": "Amazon Home & Kitchen",
-        "url": "https://www.amazon.in/gp/rss/bestsellers/kitchen/ref=zg_bs_kitchen_rsslink",
-        "emoji": "🏠"
-    },
-    {
+    
+{
         "name": "Desidime Hot Deals",
         "url": "https://www.desidime.com/feed",
         "emoji": "🔥"
@@ -61,8 +37,18 @@ RSS_FEEDS = [
         "name": "Desidime Fashion",
         "url": "https://www.desidime.com/deals/fashion.rss",
         "emoji": "👗"
+    },
+    {
+        "name": "Desidime Home",
+        "url": "https://www.desidime.com/deals/home-kitchen.rss",
+        "emoji": "🏠"
+    },
+    {
+        "name": "Desidime Beauty",
+        "url": "https://www.desidime.com/deals/health-beauty.rss",
+        "emoji": "💄"
     }
-]
+    ]
 
 # ============================================================
 #   ALREADY POSTED LINKS TRACKER (Duplicate avoid பண்ண)
